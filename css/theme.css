@@ -17,6 +17,10 @@ body h2 {
   margin-top: 30px;
 }
 
+body h5 {
+  font-weight: bold;
+}
+
 /*Navigation*/
 nav {
   background-color: #01093d;
@@ -32,15 +36,24 @@ nav .btn {
 
 /*Accueil*/
 #accueil {
-  height: 900px;
+  height: 800px;
   background: url(../img/fond-cine.svg) no-repeat center;
   color: #ac18e1;
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 #accueil h1 {
-  font-family: 'stronger';
+  font-family: 'stronger', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 8em;
+}
+
+@media all and (max-width: 760px) {
+  #accueil h1 {
+    font-size: 5em;
+  }
+  .info-titre p {
+    font-size: 1em;
+  }
 }
 
 .info-titre {
@@ -57,17 +70,22 @@ nav .btn {
 
 /*actu*/
 #actu {
-  background-color: #01093d;
+  background-color: white;
   color: #2b3b51;
 }
+
+#actu h2 {
+  color: #2b3b51;
+}
+
 .modal-content {
-  background-color: #ac18e1;
+  background-color: #25e0d0;
   color: white;
 }
 
 #actu .btn {
-  background-color: #ac18e1;
-  border-color: #ac18e1;
+  background-color: #25e0d0;
+  border-color: #25e0d0;
 }
 
 /*films*/
@@ -102,7 +120,24 @@ nav .btn {
   margin-bottom: 50px;
 }
 
+#resa .modal-content {
+  background-color: #5658f9;
+}
+
 /*footer*/
-.list-group-item {
-  background-color: #01093d !important;
+footer {
+  background-color: white;
+  color: #2b3b51;
+}
+
+footer h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'stronger', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3em;
+}
+
+footer .fab {
+  color: #2b3b51 !important;
+  margin: 30px 15px 0px 15px;
 }
