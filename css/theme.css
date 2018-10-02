@@ -1,0 +1,108 @@
+/*Général*/
+@font-face {
+  font-family: "stronger";
+  src: url("../fonts/stronger/Stronger.otf") format("opentype"),
+         url("../fonts/stronger/Stronger.ttf") format("truetype");
+ }
+
+body {
+  background-color: #01093d;
+  color: white;
+}
+
+body h2 {
+  color: white;
+  font-family: 'stronger';
+  font-size: 4em;
+  margin-top: 30px;
+}
+
+/*Navigation*/
+nav {
+  background-color: #01093d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+nav .btn {
+  color: #dbc469;
+  border-color: #dbc469;
+}
+
+/*Accueil*/
+#accueil {
+  height: 900px;
+  background: url(../img/fond-cine.svg) no-repeat center;
+  color: #ac18e1;
+  margin-top: 90px;
+}
+
+#accueil h1 {
+  font-family: 'stronger';
+  font-size: 8em;
+}
+
+.info-titre {
+  background-color: #ab18e198;
+  color: white;
+  font-size: 3em;
+  border-radius: 30px;
+}
+
+#accueil .btn-info {
+  background-color: #ac18e1;
+  border-color: #ac18e1;
+}
+
+/*actu*/
+#actu {
+  background-color: #01093d;
+  color: #2b3b51;
+}
+.modal-content {
+  background-color: #ac18e1;
+  color: white;
+}
+
+#actu .btn {
+  background-color: #ac18e1;
+  border-color: #ac18e1;
+}
+
+/*films*/
+.affiche {
+  text-align: center;
+}
+
+.affiche img {
+  box-shadow: 0px 0px 20px #dbc469;
+}
+
+#programmation h3 {
+  text-align: center;
+}
+
+.titre {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 3px solid white;
+}
+
+.description h4 {
+  font-weight: bold;
+}
+
+.description h5 {
+  font-style: italic;
+}
+
+.jour {
+  margin-bottom: 50px;
+}
+
+/*footer*/
+.list-group-item {
+  background-color: #01093d !important;
+}
