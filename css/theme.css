@@ -36,7 +36,7 @@ nav .btn {
 
 /*Accueil*/
 #accueil {
-  height: 800px;
+  height: 900px;
   background: url(../img/fond-cine.svg) no-repeat center;
   color: #ac18e1;
   margin-top: 80px;
@@ -47,18 +47,11 @@ nav .btn {
   font-size: 8em;
 }
 
-@media all and (max-width: 760px) {
-  #accueil h1 {
-    font-size: 5em;
-  }
-  .info-titre p {
-    font-size: 1em;
-  }
-}
 
 .info-titre {
   background-color: #ab18e198;
   color: white;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 3em;
   border-radius: 30px;
 }
@@ -67,6 +60,16 @@ nav .btn {
   background-color: #ac18e1;
   border-color: #ac18e1;
 }
+
+@media all and (max-width: 760px) {
+  #accueil h1 {
+    font-size: 5em;
+  }
+  .info-titre {
+    font-size: 2em;
+  }
+}
+
 
 /*actu*/
 #actu {
