@@ -38,22 +38,28 @@ nav .btn {
 #accueil {
   height: 900px;
   background: url(../img/fond-cine.svg) no-repeat center;
-  color: #ac18e1;
+  color: #25e0d0;
   margin-top: 80px;
 }
 
 #accueil h1 {
   font-family: 'stronger', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 8em;
+  font-size: 10em;
 }
 
 
-.info-titre {
-  background-color: #ab18e198;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 3em;
+#accueil h3 {
+  font-family: 'stronger', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 8em;
+  color: #ac18e1;
+}
+
+.info-titre p {
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 5em;
   border-radius: 30px;
+  text-shadow: 5px 5px 5px #ac18e1;
 }
 
 #accueil .btn-info {
@@ -61,12 +67,15 @@ nav .btn {
   border-color: #ac18e1;
 }
 
-@media all and (max-width: 760px) {
+@media all and (max-width: 1350px) {
   #accueil h1 {
     font-size: 5em;
   }
-  .info-titre {
-    font-size: 2em;
+  #accueil h3 {
+    font-size: 4em;
+  }
+  .info-titre p {
+    font-size: 3em;
   }
 }
 
