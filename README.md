@@ -1,4 +1,3 @@
-# projet3
+# projet3 Openclassrooms
 
-Projet n°3 de ma formation OC.
-Rélisation d'une maquette pour un festival de films et d'un cahier des charges.
+## Réalisation d'une maquette pour un festival de films et d'un cahier des charges.
